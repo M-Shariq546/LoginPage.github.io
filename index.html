@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1 id="head">Login</h1>
+            <!-- <hr id="hor"> -->
+            <label for="Email" id="elabel">Email : </label>
+            <input type="email" id="Email" placeholder="Enter the Email">
+            <br>
+            <label for="pwd" id="plabel">Password : </label>
+            <input type="password" id="pwd" placeholder="Enter the Password">
+            <br>
+            <!-- <hr id="hor1"> -->
+            <ul id="list">
+            <li id="charup">Atleast have 1 Uppercase character</li>
+            <li id="charlow">Atleast have 1 Lowercase character</li>
+            <li id="spechar">Atleast have 1 special character</li>
+            <li id="num">Must Contain Numbers</li>
+            <li id="len">Lenght must be more than or equal to 8</li>
+            </ul>
+            <br>
+            <input type="button" value="Login" id="Login">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
